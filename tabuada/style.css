@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap&#39'); 
+
+body { 
+    font: 12pt Arial; 
+    background-color: #5F7C8A;
+    max-width: 500px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+} 
+
+h1, h2, h3 { 
+    font-family: 'Pacifico', cursive; font-weight: normal;
+}
+
+input[type=number] {
+     font-size: 12pt; 
+} 
+
+input[type=submit] {
+background-color: green;
+color: white;
+font-size: 12pt;
+padding: 5px;
+}
+
+form input[type=text],
+form input[type=password]{
+  width: 100%;
+  height: 45px;
+  border: 1px solid#ccc;
+  padding-left: 10px;
+  margin: 10px 0;
+ 
+}
+
+form input[type=submit]:hover{
+    background-color: #4A5F6A;
+}
+form input[type=text]:focus{
+    outline: 0;
+}
+form input[type=password]:focus{
+    outline: 0;
+}
+
+
+
+
